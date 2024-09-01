@@ -1,6 +1,6 @@
 const balls = document.querySelectorAll('.ball');
 
-const speed = 50;
+const speed = 1;
 
 function updateBalls() {
     balls.forEach(ball => {

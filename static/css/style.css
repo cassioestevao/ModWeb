@@ -70,9 +70,7 @@ header {
         color: #28c940;
 
     }50%{
-        color: #ffbd2e;
-    }100%{
-        color: #ff5f57;
+        color: #28c9408f;
     }
     
 }
@@ -209,7 +207,7 @@ header {
 }
 
 .window-header {
-    background: rgba(255, 255, 255, 0.514);
+    background: rgba(255, 255, 255, 0.719);
     color: #fff;
     padding: 10px;
     border-top-left-radius: 10px;
