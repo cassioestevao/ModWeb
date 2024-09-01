@@ -55,10 +55,12 @@ header {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: var(--color-primaria);
+    background-color: #161618;
+    margin-top: 30px;
 }
 #box-windo{
-    height: 430px;
+    height: 470px;
+    margin-top: 20px;
 }
 #user-circ {
     animation: status infinite 4s ease-in-out;
