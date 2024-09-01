@@ -57,6 +57,9 @@ header {
     overflow: hidden;
     background-color: var(--color-primaria);
 }
+#box-windo{
+    height: 430px;
+}
 #user-circ {
     animation: status infinite 4s ease-in-out;
     transition: ease-out;
