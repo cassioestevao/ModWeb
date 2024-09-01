@@ -60,7 +60,8 @@ header {
 }
 #box-windo{
     height: 470px;
-    margin-top: 20px;
+
+    border: rgba(255, 255, 255, 0.719) solid 2px;
 }
 #user-circ {
     animation: status infinite 4s ease-in-out;
@@ -68,6 +69,7 @@ header {
 }
 
 @keyframes status {
+    
     0%{
         color: #28c940;
 
