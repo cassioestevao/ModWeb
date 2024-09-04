@@ -2,11 +2,24 @@
 body, html {
     margin: 0;
     padding: 0;
+    cursor: url('/static/img/cursor.png'), auto;
     overflow: hidden; /* Para garantir que não apareça uma barra de rolagem */
     background-color:var(--color-primaria);
     color: var(--color-cinco);
  
 }
+a {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer; 
+}
+
+input[type="text"] {
+    cursor: text; 
+}
+
 
 :root {
     --color-primaria:#000000;
