@@ -348,6 +348,20 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    overflow-y: scroll;
+    scrollbar-color: var(--color-secudaria);
+    max-height:500px ;
+}
+
+.list-group{
+    list-style: none;
+}
+#searchInput {
+    margin-right: 10px; /* Espaçamento à direita do input */
+}
+
+#searchButton {
+    margin-top: 0; /* Remove qualquer margem superior adicional */
 }
 
 .results.hidden {
