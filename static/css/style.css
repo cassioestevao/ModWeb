@@ -209,6 +209,7 @@ header {
 /*  */
 .window {
     position: relative;
+    margin-top: 60px;
     width: 80%;
     max-width: 800px;
     background: #1616189c;
