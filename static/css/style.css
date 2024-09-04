@@ -24,10 +24,10 @@ input[type="text"] {
 
 :root {
     --color-primaria:#000000;
-   --color-secudaria: #161618;
-   --color-tres: #212124;
-   --color-quatro: #ffffff;
-   --color-cinco: #818181;
+    --color-secudaria: #161618;
+    --color-tres: #212124;
+    --color-quatro: #ffffff;
+    --color-cinco: #818181;
 }
 header {
     position: fixed;
@@ -296,6 +296,8 @@ header {
 @media (max-width: 768px) {
     .window {
         width: 95%;
+        height: 900px;
+        
     }
    
 }
