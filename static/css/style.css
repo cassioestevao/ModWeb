@@ -9,6 +9,42 @@ body, html {
     font-family: 'Poppins', sans-serif;
  
 }
+.flex {
+    display: flex;
+}
+.loader {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: bounce 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
 a {
     cursor: pointer;
 }
@@ -301,5 +337,23 @@ header {
     }
    
 }
+.no-scroll {
+    overflow: hidden;
+}
 
 
+
+.results {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.results.hidden {
+    display: none;
+}
+
+.searchButton{
+    background-color: var(--color-cinco);
+    border-radius: 20px;
+}

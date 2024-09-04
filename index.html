@@ -23,8 +23,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"> .Developer
-                </a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -53,14 +52,25 @@
                             <a class="nav-link disabled" aria-disabled="true"><i class='bx bxs-user-circle' id="user-circ"></i></a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
-                        <button type="button" class="btn btn-dark">Pesquisar</button>
-                    </form>
+                    <div class="container" id="item-off">
+                        <ul class="list-group">
+                            <li class="list-group-item-dark">
+                                <div class="search-container">
+                                    <input id="searchInput" type="text" placeholder="Digite sua pesquisa...">
+                                    <button id="searchButton">Pesquisar</button>
+                                </div>
+                                <div id="results" class="results hidden"></div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                
             </div>
+            
         </nav>
+        
     </header>
+
 
     <section id="home">
         <div class="background">
@@ -86,13 +96,17 @@
 
         <div class="window">
             <div class="window-header">
-                <span class="title"> <i class='bx bx-terminal'></i> STATUS GITHUB</span>
-                <div class="window-controls">
-                    <span class="control" id="minimize"></span>
-                    <span class="control" id="maximize"></span>
-                    <span class="control" id="close"></span>
+                <div class="flex">
+    
+                    <span class="title"> .Developer</span>
+                </div>
+                <div class="loader">
+                    <span class="dot" id="minimize"></span>
+                    <span class="dot" id="maximize"></span>
+                    <span class="dot" id="close"></span>
                 </div>
             </div>
+           
             <div class="container" id="box-windo">
                 <div id="github-info">
                     <img id="profile-pic" class="profile-pic" src="" alt="Foto de Perfil">
@@ -108,6 +122,7 @@
                         <h3>Principais Linguagens:</h3>
                         Carregando...
                     </div>
+                    
                 </div>
             </div>
 
@@ -123,6 +138,8 @@
     <!-- Custom JS -->
     <script src="static/js/scripts.js"></script>
     <script src="static/js/api_git.js"></script>
+    <script src="static/js/SearchForm.js"></script>
+
 </body>
 
 </html>
