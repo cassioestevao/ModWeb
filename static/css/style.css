@@ -340,8 +340,9 @@ header {
 .no-scroll {
     overflow: hidden;
 }
-
-
+.search-container{
+    display:flex;
+}
 
 .results {
     display: flex;
@@ -353,7 +354,3 @@ header {
     display: none;
 }
 
-.searchButton{
-    background-color: var(--color-cinco);
-    border-radius: 20px;
-}
